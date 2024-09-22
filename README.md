@@ -68,17 +68,18 @@ The steps below were taken to manage this project and reach the hello world stat
 5. Create .credentials.development.json to store credentials
 6. Setup Node and Express
     - Install Node on developer system from https://nodejs.org/en (follow installation instructions)
-    - From command prompt, navigate to mean directory, then execute "npm init" and answer series of questions to create package.json
-    - From command prompt, navigate to mean directory, then execute "npm install express"
+    - From command prompt, navigate to mern directory, then execute "npm init" and answer series of questions to create package.json
+    - From command prompt, navigate to mern directory, then execute "npm install express"
 7. Setup GIT for version control
     - Create .gitignore file in mean directory
         - ignore node_modules
     - Install Git on developer system from https://git-scm.com/ (follow installation instructions)
-    - From command prompt, navigate to mean directory, then execute "git init"
+    - From command prompt, navigate to mern directory, then execute "git init"
 8. Setup Github Repository to store project files
     - Install Github CLI
     - Create Github account (if one does not exist)
     - Create a repository on github to store project
+        - (Optional) Create a branch
     - Authenticate Github on developer system (a token will need setup)
         - Navigate to the project directory and execute "gh auth login --hostname https://github.com/<owner>"
     - Link to new repository by executing: git remote add origin https://github.com/<owner>/<repo name>.git
@@ -86,7 +87,7 @@ The steps below were taken to manage this project and reach the hello world stat
     - Push procedure from project directory:
         - Add all files (excluding gitignore items), execute "git add -A"
         - Commit files, execute "git  commit -m "(Add a message to describe commit here)"
-        - Push git commit to Github "git push -u origin master"
+        - Push git commit to Github "git push -u origin 1-hello-world"
 9. Setup React
     - (ADD DIRECTIONS HERE)
 10. Setup MongoDB Database
