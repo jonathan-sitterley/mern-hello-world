@@ -90,6 +90,7 @@ The steps below were taken to manage this project and reach the hello world stat
         - Push git commit to Github "git push -u origin 1-hello-world"
 9. Setup React
     - (ADD DIRECTIONS HERE)
+    - Change
 10. Setup MongoDB Database
     - Install MongoDB on developer system from https://www.mongodb.com/try/download/community (follow installation instructions)
     - Add mongo to PATH
