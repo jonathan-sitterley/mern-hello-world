@@ -1,0 +1,9 @@
+#ignore packages installed by npm
+node_modules/
+app/
+.credentials.*
+env.bat
+logs/
+*.log
+logs*
+*~
